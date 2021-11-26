@@ -1,0 +1,23 @@
+/* CSS variables for SvarteUI */
+
+:root {
+    --text: black
+}
+
+/* Normal devices and bigger (Laptops) */
+@media only screen and (min-width: 768px) {
+    :root {
+    }
+}
+
+/* Small devices (Watches, Phones) */
+@media only screen and (max-width: 767px){
+    :root {
+    }
+}
+
+/* Portrait phones */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    :root {
+    }
+}
