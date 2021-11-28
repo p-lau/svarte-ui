@@ -1,23 +1,41 @@
 /* CSS variables for SvarteUI */
 
-:root {
-    --text: black
-}
-
 /* Normal devices and bigger (Laptops) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
     :root {
     }
 }
 
 /* Small devices (Watches, Phones) */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 48rem){
     :root {
+
     }
 }
 
 /* Portrait phones */
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 48rem) and (orientation: portrait) {
     :root {
     }
+}
+
+@media only screen and (prefers-reduced-motion){
+    
+}
+
+html[theme="light"], html {
+    --text: #000;
+    --background: #fff;
+    --danger: #b00;
+    --warning: #fe4;
+    --info: #6df;
+    --success: #1b4;
+    color: var(--text);
+    background-color: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+html[theme="dark"]{
+    --text: #fff;
+    --background: #000;
 }
