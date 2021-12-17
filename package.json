@@ -17,18 +17,19 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "autoprefixer": "^10.4.0",
-    "cssnano": "^5.0.11",
+    "cssnano": "^5.0.13",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
-    "postcss": "^8.4.1",
-    "prettier": "^2.5.0",
-    "prettier-plugin-svelte": "^2.5.0",
-    "svelte": "^3.44.2",
+    "normalize.css": "8.0.1",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
+    "svelte": "^3.44.3",
     "svelte-check": "^2.2.10",
-    "svelte-preprocess": "^4.9.8",
+    "svelte-preprocess": "^4.10.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "type": "module"
 }

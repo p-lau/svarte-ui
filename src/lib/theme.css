@@ -1,41 +1,33 @@
 /* CSS variables for SvarteUI */
 
-/* Normal devices and bigger (Laptops) */
-@media only screen and (min-width: 48rem) {
-    :root {
-    }
+:root {
+    --sv-text: #111;
+    --sv-bg: #eee;
+
+    --sv-bg-accent: #ddd;
+    --sv-border: #fff;
+    --sv-danger: #b00;
+    --sv-warning: #fe4;
+    --sv-info: #6df;
+    --sv-success: #1b4;
+
+    --sv-nav-h: 2rem;
+    --sv-nav-w: 2rem;
+    --sv-nav-display: grid;
+    --sv-nav-border: thin var(--sv-border) solid;
+    --sv-nav-brand: '';
+
+    --sv-display: clamp(3rem, 10vw, 5rem);
+     
 }
 
-/* Small devices (Watches, Phones) */
-@media only screen and (max-width: 48rem){
-    :root {
-
-    }
-}
-
-/* Portrait phones */
-@media only screen and (max-width: 48rem) and (orientation: portrait) {
-    :root {
-    }
-}
-
-@media only screen and (prefers-reduced-motion){
-    
-}
-
-html[theme="light"], html {
-    --text: #000;
-    --background: #fff;
-    --danger: #b00;
-    --warning: #fe4;
-    --info: #6df;
-    --success: #1b4;
-    color: var(--text);
-    background-color: var(--background);
+html {
+    color: var(--sv-text);
+    background-color: var(--sv-bg);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-html[theme="dark"]{
-    --text: #fff;
-    --background: #000;
+html[theme="dark"] {
+    --sv-text: #eee;
+    --sv-bg: #111;
 }
