@@ -15,8 +15,6 @@
 
     setContext("Accordion", { disableItems });
 </script>
-  
-  <!-- svelte-ignore a11y-mouse-events-have-key-events -->
   {#if skeleton}
     <AccordionSkeleton
       {...$$restProps}
